@@ -1,7 +1,5 @@
-# Jenkins.
-
-FROM ubuntu:16.04
-MAINTAINER Thomas Quintana <thomas@bettervoice.com>
+FROM armv7/armhf-ubuntu:16.04
+MAINTAINER Roman Kredentser <shareed2k@gmail.com>
 
 # Enable the Ubuntu multiverse repository.
 RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ trusty multiverse" >> /etc/apt/source.list
